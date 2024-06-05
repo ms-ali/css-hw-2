@@ -1,0 +1,43 @@
+img{
+    width: 25%;
+    display: block;
+    margin: auto;
+    
+}
+div{
+    width: 20%;
+    height: 250px;
+    display: inline-block;
+    margin-left: 65px;
+    margin-top: 200px;
+    position: relative;
+   
+    
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 10px;
+    position: absolute;
+    top: 125px;
+    
+}
+
+a{
+    position: absolute;
+    top: 61%;
+    display: block;
+    color: orange;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 10px;
+    margin-top: 75px;
+    text-decoration: none;
+    
+}
+
+div:hover{
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 5px 10px 20px gray;
+    transition: 0.5s;
+}    
